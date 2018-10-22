@@ -66,9 +66,9 @@ database.ref().on("child_added", function (childSnapshot) {
 
 
 
-    $('.date').text(moment(currentTime).format("MMMM Do YYYY"));
+    $('#date1').text(moment(currentTime).format("MMMM Do YYYY"));
 
-    $('.time').text(moment(currentTime).format("hh:mm"));
+    $('#time1').text(moment(currentTime).format("hh:mm"));
 
 
 
